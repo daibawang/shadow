@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d48ca1ac</color>
+    <color name="colorPrimaryDark">#b4fcdf86</color>
+    <color name="colorAccent">#cc9a00</color>
+
+
+    <color name="window_background">#ffffff</color>
+    <color name="window_gray">#ececec</color>
+
+    <color name="text_brack">#0d0d0d</color>
+    <color name="text_gray01">#585858</color>
+    <color name="text_gray02">#939393</color>
+
+
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--首页分割线-->
+    <color name="colorHomeLine">#D4D4D4</color>
+</resources>

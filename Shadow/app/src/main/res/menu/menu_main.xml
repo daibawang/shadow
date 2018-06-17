@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/g1">
+    <item
+        android:id="@+id/favorite"
+        android:icon="@mipmap/tag"
+        android:title="标记"/>
+    </group>
+
+    <group android:id="@+id/g2">
+    <item
+        android:id="@+id/photo"
+        android:icon="@mipmap/love"
+        android:title="收藏"/>
+    </group>
+
+    <group android:id="@+id/g3">
+    <item
+        android:id="@+id/wallet"
+        android:icon="@mipmap/information"
+        android:title="我的信息"/>
+    </group>
+
+    <group android:id="@+id/g4">
+    <item
+        android:id="@+id/file"
+        android:icon="@mipmap/set"
+        android:title="设置"/>
+    </group>
+
+    <group android:id="@+id/g5">
+    <item
+        android:id="@+id/vip"
+        android:icon="@mipmap/member"
+        android:title="vip会员"/>
+    </group>
+</menu>

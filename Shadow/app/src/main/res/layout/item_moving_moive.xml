@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_movie_image"
+        android:layout_width="100dp"
+        android:layout_height="144dp"
+        android:src="@drawable/hot"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="130dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_m_title"
+                android:text="南极之恋"
+                android:textColor="@color/text_brack"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_m_yeat"
+                android:text="(2016)"
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/text_gray01"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_g_type"
+            android:layout_marginTop="10dp"
+            android:text="韩国，剧情/悬疑/恐怖"
+            android:textSize="15sp"
+            android:textColor="@color/text_gray01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tv_star"
+            android:layout_marginTop="10dp"
+            android:text="哎百合/吴彦祖"
+            android:textSize="14sp"
+            android:textColor="@color/text_gray02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
